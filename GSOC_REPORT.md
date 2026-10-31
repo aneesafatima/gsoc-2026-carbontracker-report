@@ -30,17 +30,17 @@ activities and understand their environmental impact while keeping their data pr
   <tr>
     <td align="center"><img src="assets/screenshots/01.PNG" width="170"><br><sub>Onboarding</sub></td>
     <td align="center"><img src="assets/screenshots/02.PNG" width="170"><br><sub>User info</sub></td>
-    <td align="center"><img src="assets/screenshots/03.PNG" width="170"><br><sub>Fitness metrics</sub></td>
+    <td align="center"><img src="assets/screenshots/03.PNG" width="170"><br><sub>User info</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshots/04.PNG" width="170"><br><sub>Recent activity (from watch)</sub></td>
-    <td align="center"><img src="assets/screenshots/05.PNG" width="170"><br><sub>Carbon dashboard</sub></td>
-    <td align="center"><img src="assets/screenshots/06.PNG" width="170"><br><sub>Weekly impact chart</sub></td>
+    <td align="center"><img src="assets/screenshots/04.PNG" width="170"><br><sub>Fitness metrics</sub></td>
+    <td align="center"><img src="assets/screenshots/05.PNG" width="170"><br><sub>Fitness metrics</sub></td>
+    <td align="center"><img src="assets/screenshots/06.PNG" width="170"><br><sub>Map screen</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshots/07.PNG" width="170"><br><sub>Map and route search</sub></td>
-    <td align="center"><img src="assets/screenshots/08.PNG" width="170"><br><sub>Profile</sub></td>
-    <td align="center"><img src="assets/screenshots/09.PNG" width="170"><br><sub>Data export</sub></td>
+    <td align="center"><img src="assets/screenshots/07.PNG" width="170"><br><sub>Carbon Screen</sub></td>
+    <td align="center"><img src="assets/screenshots/08.PNG" width="170"><br><sub>Profile Screen</sub></td>
+    <td align="center"><img src="assets/screenshots/09.PNG" width="170"><br><sub>Profile Screen</sub></td>
   </tr>
 </table>
 
@@ -48,8 +48,8 @@ activities and understand their environmental impact while keeping their data pr
 
 <table align="center">
   <tr>
-    <td align="center"><img src="assets/screenshots/10.PNG" width="140"><br><sub>Onboarding</sub></td>
-    <td align="center"><img src="assets/screenshots/11.PNG" width="140"><br><sub>Activity selection</sub></td>
+    <td align="center"><img src="assets/screenshots/11.PNG" width="140"><br><sub>Onboarding</sub></td>
+    <td align="center"><img src="assets/screenshots/10.PNG" width="140"><br><sub>Activity selection</sub></td>
     <td align="center"><img src="assets/screenshots/12.PNG" width="140"><br><sub>Stopwatch and tracking</sub></td>
   </tr>
 </table>
@@ -65,7 +65,7 @@ activities and understand their environmental impact while keeping their data pr
 | Carbon dashboard and comparison modes                                       | ✅ Merged                 | [#9](https://github.com/AOSSIE-Org/CarbonTracker/pull/9), [#23](https://github.com/AOSSIE-Org/CarbonTracker/pull/23)                                                                                                                                                                                                      |
 | Map and location-based trip tracking                                        | ✅ Merged                 | [#10](https://github.com/AOSSIE-Org/CarbonTracker/pull/10), [#11](https://github.com/AOSSIE-Org/CarbonTracker/pull/11), [#23](https://github.com/AOSSIE-Org/CarbonTracker/pull/23)                                                                                                                                        |
 | Profile, data export, monthly reset                                         | ✅ Merged                 | [#12](https://github.com/AOSSIE-Org/CarbonTracker/pull/12), [#13](https://github.com/AOSSIE-Org/CarbonTracker/pull/13)                                                                                                                                                                                                    |
-| Wear OS integration (phone side)                                            | ✅ Merged                 | [#20](https://github.com/AOSSIE-Org/CarbonTracker/pull/20), [#21](https://github.com/AOSSIE-Org/CarbonTracker/pull/21), [#22](https://github.com/AOSSIE-Org/CarbonTracker/pull/22), [#26](https://github.com/AOSSIE-Org/CarbonTracker/pull/26) · watch app: see [below](#wear-os-companion-app)                           |
+| Wear OS integration (phone side)                                            | ✅ Merged                 | [#20](https://github.com/AOSSIE-Org/CarbonTracker/pull/20), [#21](https://github.com/AOSSIE-Org/CarbonTracker/pull/21), [#22](https://github.com/AOSSIE-Org/CarbonTracker/pull/22), [#26](https://github.com/AOSSIE-Org/CarbonTracker/pull/26)                                                                            |
 | Automated tests (unit, widget, integration)                                 | ✅ Merged                 | [#13](https://github.com/AOSSIE-Org/CarbonTracker/pull/13), [#24](https://github.com/AOSSIE-Org/CarbonTracker/pull/24), [#25](https://github.com/AOSSIE-Org/CarbonTracker/pull/25), [#34](https://github.com/AOSSIE-Org/CarbonTracker/pull/34) (CI workflow)                                                              |
 | CI/CD and release automation                                                | ✅ Merged · 🔄 1 fix open | [#28](https://github.com/AOSSIE-Org/CarbonTracker/pull/28), [#34](https://github.com/AOSSIE-Org/CarbonTracker/pull/34), [#36](https://github.com/AOSSIE-Org/CarbonTracker/pull/36) · [#42](https://github.com/AOSSIE-Org/CarbonTracker/pull/42) (open) · [releases](https://github.com/AOSSIE-Org/CarbonTracker/releases) |
 | Security and project health (CodeRabbit, Scorecard, checklist, SECURITY.md) | ✅ Merged                 | [#15](https://github.com/AOSSIE-Org/CarbonTracker/pull/15), [#16](https://github.com/AOSSIE-Org/CarbonTracker/pull/16), [#33](https://github.com/AOSSIE-Org/CarbonTracker/pull/33), [#35](https://github.com/AOSSIE-Org/CarbonTracker/pull/35), [#39](https://github.com/AOSSIE-Org/CarbonTracker/pull/39)                |
@@ -112,8 +112,7 @@ activities and understand their environmental impact while keeping their data pr
 - JSON export of trip history via the system share sheet
   **Key decision:** No backend or account. The one external service is Nominatim for place search
   and reverse geocoding; this is disclosed in the privacy policy.
-  **PRs:
-  ** [#1](https://github.com/AOSSIE-Org/CarbonTracker/pull/1), [#12](https://github.com/AOSSIE-Org/CarbonTracker/pull/12), [#13](https://github.com/AOSSIE-Org/CarbonTracker/pull/13), [#22](https://github.com/AOSSIE-Org/CarbonTracker/pull/22)
+  **PRs:** [#1](https://github.com/AOSSIE-Org/CarbonTracker/pull/1), [#12](https://github.com/AOSSIE-Org/CarbonTracker/pull/12), [#13](https://github.com/AOSSIE-Org/CarbonTracker/pull/13), [#22](https://github.com/AOSSIE-Org/CarbonTracker/pull/22)
 
 #### 2. Health data (Health Connect / HealthKit)
 
@@ -125,8 +124,7 @@ activities and understand their environmental impact while keeping their data pr
 - Loading, refresh and empty states
   **Key decision:** Show "N/A" when a metric needs a wearable and none is connected, instead of
   placeholder numbers.
-  **PRs:
-  ** [#6](https://github.com/AOSSIE-Org/CarbonTracker/pull/6), [#7](https://github.com/AOSSIE-Org/CarbonTracker/pull/7), [#8](https://github.com/AOSSIE-Org/CarbonTracker/pull/8), [#29](https://github.com/AOSSIE-Org/CarbonTracker/pull/29)
+  **PRs:** [#6](https://github.com/AOSSIE-Org/CarbonTracker/pull/6), [#7](https://github.com/AOSSIE-Org/CarbonTracker/pull/7), [#8](https://github.com/AOSSIE-Org/CarbonTracker/pull/8), [#29](https://github.com/AOSSIE-Org/CarbonTracker/pull/29)
 
 #### 3. Map and trip logging
 
@@ -135,8 +133,7 @@ activities and understand their environmental impact while keeping their data pr
 - Device location (geolocator) and place search (Nominatim) for current and destination points
 - Map screen with trips for walk, run and bike saved locally
 - Location permissions and clear error messages on both platforms
-  **PRs:
-  ** [#10](https://github.com/AOSSIE-Org/CarbonTracker/pull/10), [#11](https://github.com/AOSSIE-Org/CarbonTracker/pull/11), [#23](https://github.com/AOSSIE-Org/CarbonTracker/pull/23)
+  **PRs:** [#10](https://github.com/AOSSIE-Org/CarbonTracker/pull/10), [#11](https://github.com/AOSSIE-Org/CarbonTracker/pull/11), [#23](https://github.com/AOSSIE-Org/CarbonTracker/pull/23)
 
 #### 4. Carbon savings and comparisons
 
@@ -147,8 +144,7 @@ activities and understand their environmental impact while keeping their data pr
 - User-selectable comparison baseline (default: car)
   **Key decision:** Results are presented as estimates against a baseline you choose, not exact
   avoided emissions.
-  **PRs:
-  ** [#11](https://github.com/AOSSIE-Org/CarbonTracker/pull/11), [#23](https://github.com/AOSSIE-Org/CarbonTracker/pull/23)
+  **PRs:** [#11](https://github.com/AOSSIE-Org/CarbonTracker/pull/11), [#23](https://github.com/AOSSIE-Org/CarbonTracker/pull/23)
 
 ### Wear OS companion app
 
@@ -160,8 +156,7 @@ activities and understand their environmental impact while keeping their data pr
   stopwatch with start/pause/stop
 - Health Services via `ExerciseService` for distance, calories and heart rate
 - Room database for sessions; sessions left unfinished by a crash are closed on startup
-  **PRs (watch repo):
-  ** [#19](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/19), [#22](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/22), [#23](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/23), [#24](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/24)
+  **PRs (watch repo):** [#19](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/19), [#22](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/22), [#23](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/23), [#24](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/24)
 
 #### 6. Watch ↔ phone sync
 
@@ -184,8 +179,7 @@ activities and understand their environmental impact while keeping their data pr
   Android prompt which helps the mobile app to connect with existing fitness apps on the said
   device, which I made non-blocking so
   onboarding can't get stuck
-  **PRs:
-  ** [#7](https://github.com/AOSSIE-Org/CarbonTracker/pull/7), [#41](https://github.com/AOSSIE-Org/CarbonTracker/pull/41)
+  **PRs:** [#7](https://github.com/AOSSIE-Org/CarbonTracker/pull/7), [#41](https://github.com/AOSSIE-Org/CarbonTracker/pull/41)
 
 ### Quality, security and releases
 
@@ -195,24 +189,21 @@ activities and understand their environmental impact while keeping their data pr
   refactored behind an interface and Riverpod provider so it can be faked in tests; Flutter tests
   run in CI
 - **Gap:** integration coverage is currently the onboarding flow only
-  **PRs:
-  ** [#13](https://github.com/AOSSIE-Org/CarbonTracker/pull/13), [#24](https://github.com/AOSSIE-Org/CarbonTracker/pull/24), [#25](https://github.com/AOSSIE-Org/CarbonTracker/pull/25), [#34](https://github.com/AOSSIE-Org/CarbonTracker/pull/34)
+  **PRs:** [#13](https://github.com/AOSSIE-Org/CarbonTracker/pull/13), [#24](https://github.com/AOSSIE-Org/CarbonTracker/pull/24), [#25](https://github.com/AOSSIE-Org/CarbonTracker/pull/25), [#34](https://github.com/AOSSIE-Org/CarbonTracker/pull/34)
 
 #### 9. Releases and distribution
 
 - GitHub Actions release workflow triggered by a `VERSION` file change, with the APK attached to
   releases (v1.0.0 → v1.0.3)
 - F-Droid metadata and merge request; iOS App Store submission (in review)
-  **PRs:
-  ** [#28](https://github.com/AOSSIE-Org/CarbonTracker/pull/28), [#36](https://github.com/AOSSIE-Org/CarbonTracker/pull/36), [#38](https://github.com/AOSSIE-Org/CarbonTracker/pull/38), [#41](https://github.com/AOSSIE-Org/CarbonTracker/pull/41), [#42](https://github.com/AOSSIE-Org/CarbonTracker/pull/42) (
+  **PRs:** [#28](https://github.com/AOSSIE-Org/CarbonTracker/pull/28), [#36](https://github.com/AOSSIE-Org/CarbonTracker/pull/36), [#38](https://github.com/AOSSIE-Org/CarbonTracker/pull/38), [#41](https://github.com/AOSSIE-Org/CarbonTracker/pull/41), [#42](https://github.com/AOSSIE-Org/CarbonTracker/pull/42) (
   open) · watch [#25](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/25)
 
 #### 10. Security, documentation and project health
 
 - CodeRabbit config, OpenSSF-style best practices checklist, Scorecard workflow, security review
   report, SECURITY.md, privacy policy, setup/contributing/architecture docs
-  **PRs:
-  ** [#14](https://github.com/AOSSIE-Org/CarbonTracker/pull/14), [#15](https://github.com/AOSSIE-Org/CarbonTracker/pull/15), [#16](https://github.com/AOSSIE-Org/CarbonTracker/pull/16), [#33](https://github.com/AOSSIE-Org/CarbonTracker/pull/33), [#39](https://github.com/AOSSIE-Org/CarbonTracker/pull/39)
+  **PRs:** [#14](https://github.com/AOSSIE-Org/CarbonTracker/pull/14), [#15](https://github.com/AOSSIE-Org/CarbonTracker/pull/15), [#16](https://github.com/AOSSIE-Org/CarbonTracker/pull/16), [#33](https://github.com/AOSSIE-Org/CarbonTracker/pull/33), [#39](https://github.com/AOSSIE-Org/CarbonTracker/pull/39)
 
 ## Architecture
 
@@ -294,14 +285,14 @@ sequenceDiagram
 *Status as of 29 Oct 2026. Store review is outside my control, so I'll update this table as
 decisions come in.*
 
-| Platform                        | Version                 | Status                                                | Link                                                                                 |
-|---------------------------------|-------------------------|-------------------------------------------------------|--------------------------------------------------------------------------------------|
-| **GitHub Releases** (phone app) | v0.1.0 → v1.0.3         | ✅ Published                                           | [Releases](https://github.com/AOSSIE-Org/CarbonTracker/releases)                     |
-| **Google Play** (phone app)     | 1.0.0+1 live · 1.0.0+5  | ✅ Earlier version live · 🔄 New version in review     | [Play Store](https://play.google.com/store/apps/details?id=org.aossie.carbontracker) |
-| **Google Play** (Wear OS app)   | 1.0.0+6 (first release) | 🔄 In review, addressing reviewer findings            | `N/A`                                                                                |
-| **iOS App Store**               | 1.0.3                   | 🔄 In review, addressing issues raised by Apple       | `N/A`                                                                                |
-| **F-Droid**                     | 1.0.3                   | 🔄 Merge request open, iterating on reviewer feedback | [Releases](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/54194)              |
-| **GitHub Releases** (watch app) | 1.0.1                   | ✅ signed-APK release workflow                         | [Releases](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/releases)   |
+| Platform                        | Version                  | Status                                                | Link                                                                                 |
+|---------------------------------|--------------------------|-------------------------------------------------------|--------------------------------------------------------------------------------------|
+| **GitHub Releases** (phone app) | v0.1.0 → v1.0.3          | ✅ Published                                           | [Releases](https://github.com/AOSSIE-Org/CarbonTracker/releases)                     |
+| **Google Play** (phone app)     | 1.0.0+1 live · 1.0.3+12  | ✅ Earlier version live · 🔄 New version in review     | [Play Store](https://play.google.com/store/apps/details?id=org.aossie.carbontracker) |
+| **Google Play** (Wear OS app)   | 1.0.2+11 (first release) | 🔄 In review, addressing reviewer findings            | `N/A`                                                                                |
+| **iOS App Store**               | 1.0.3                    | 🔄 In review, addressing issues raised by Apple       | `N/A`                                                                                |
+| **F-Droid**                     | 1.0.3                    | 🔄 Merge request open, iterating on reviewer feedback | [Releases](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/54194)              |
+| **GitHub Releases** (watch app) | 1.0.1                    | ✅ signed-APK release workflow                         | [Releases](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/releases)   |
 
 ### What I did for releases
 
@@ -511,7 +502,7 @@ re-applied in [#39](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionAp
 | App                 | Platform      | Link                                                                                                                   |
 |---------------------|---------------|------------------------------------------------------------------------------------------------------------------------|
 | CarbonTracker       | Android (APK) | [Download APK](https://github.com/AOSSIE-Org/CarbonTracker/releases/download/v1.0.3/app-release.apk)                   |
-| CarbonTracker       | Google Play   | [Play Store](https://play.google.com/store/apps/details?id=org.aossie.carbontracker)                                   |
+| CarbonTracker       | Google Play   | [Play Store](https://play.google.com/store/apps/details?id=org.aossie.carbontracker) (old version)                     |
 | CarbonTracker Watch | Google Play   | Under review                                                                                                           |
 | CarbonTracker       | F-Droid       | [F-Droid (under review)](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/54194)                                  |
 | CarbonTracker       | iOS           | Under review                                                                                                           |
