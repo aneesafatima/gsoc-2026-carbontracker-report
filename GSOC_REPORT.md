@@ -37,7 +37,7 @@ emission comparisons, and a Wear OS companion app for activity tracking and sync
 designed for fitness enthusiasts and environmentally conscious individuals who want to track their
 activities and understand their environmental impact while keeping their data private.
 
-## App Screenshots (taken from iOS and Android)
+## App Screenshots (taken Android)
 
 ### Mobile app
 
@@ -451,8 +451,6 @@ I'd approach it in.
 
 ## Full PR List
 
-### All mobile PRs (32 merged, 2 open)
-
 <details>
 <summary><b>All mobile PRs (32 merged, 2 open)</b></summary>
 
@@ -495,8 +493,6 @@ I'd approach it in.
 | [#43](https://github.com/AOSSIE-Org/CarbonTracker/pull/43) | Chore/final update - #43                              | 🔄 open    | Final app updates                                                                                                                                  |
 
 </details>
-
-### All watch PRs (6 merged, 1 open, 5 closed and superseded)
 
 > [!IMPORTANT]
 > **Security incident (30 Oct 2026):** Credentials were accidentally exposed in the watch app repository, and the open watch PRs (#33, #34, #35, #37, #38) were closed automatically. The credentials were rotated on the same day, and I re-applied all the changes in [#39](https://github.com/AOSSIE-Org/CarbonTracker-WatchCompanionApp/pull/39).
