@@ -1,7 +1,7 @@
 # CarbonTracker: GSoC 2026 Final Report
 
 **AOSSIE** · Contributor: Aneesa Fatima [GitHub](https://github.com/aneesafatima) · Mentors:
-Bhavik, Madhav, Bruno · Project size: Large (360 Hours) · Project: CarbonTracker
+Bhavik, Madhav, Bruno · Project size: Large (390 Hours) · Project: CarbonTracker
 
 **Repo:**  https://github.com/AOSSIE-Org/CarbonTracker (mobile app)
 
